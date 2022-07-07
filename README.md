@@ -7,7 +7,7 @@ A simple web page like `Linktree` to reference and highlight your socials in one
 
 🔗 https://awahrani.com/links
 
-![thumbnail](./screen.png)
+![thumbnail](./screen2.png)
 
 <br>
 <br>
