@@ -1,11 +1,16 @@
-Link-in-bio for Craftzdog
+Links
 =========================
 
-https://links.craftz.dog/
+A simple web page like `Linktree` to reference and highlight your socials in one place 🌐
 
-![thumbnail](./thumb.jpg)
+<br>
 
-[Video tutorial available here](https://youtu.be/u71pHOyvBp0).
+🔗 https://awahrani.com/links
+
+![thumbnail](./screen.png)
+
+<br>
+<br>
 
 ## License
 
