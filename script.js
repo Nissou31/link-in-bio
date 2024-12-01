@@ -15,5 +15,23 @@ window.addEventListener('DOMContentLoaded', () => {
         const main = document.querySelector('main')
         main.style.opacity = 1
         main.style.filter = 'blur(0px)'
-    }, 1000)
+    }, 600)
+
+    // Add this to your existing script.js
+    function updateFavicon() {
+        const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const favicon = document.querySelector('link[rel="icon"]');
+
+        if (isDarkMode) {
+            favicon.href = './images/link2-dark.png';
+        } else {
+            favicon.href = './images/link2.png';
+        }
+    }
+
+    // Update favicon when theme changes
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateFavicon);
+
+    // Initial favicon update
+    updateFavicon();
 })

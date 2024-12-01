@@ -4,33 +4,53 @@
 <head>
   <meta charset="utf-8" />
   <title>Nissou - Links</title>
-  <link href="./images/link3.png" rel="icon" type="image/png" sizes="256x256">
+  <link href="./images/link3.png" rel="icon" type="image/png" sizes="256x256" media="(prefers-color-scheme: light)" />
+  <link href="./images/link2.png" rel="icon" type="image/png" sizes="256x256" media="(prefers-color-scheme: dark)" />
+  <link href="./images/link.png" rel="icon" type="image/png" sizes="256x256" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="./index.css" />
   <link rel="preload" href="./images/bg01.jpg" as="image" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
   <script src="./script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
   <div id="vanta"></div>
   <main class="animated">
     <header>
-      <img src="./images/nissou3bis.jpg" alt="" />
+      <img src="./images/nissou3bis-removebg-preview.png" alt="" />
       <h1>Nissou 🌴</h1>
+      <p style="color: #000; margin-top: 5px; font-weight: 600;">DevSecOps engineer. ♾️</p>
+      <div class="social-links">
+        <a href="mailto:anes.devops.31@gmail.com" title="Email">
+          <i class="fas fa-at"></i> <!-- @ -->
+        </a>
+        <a href="https://www.linkedin.com/in/anesamri/" title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Nissou31" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
     </header>
     <ul class="vertical">
       <li>
-        <a href="https://github.com/Nissou31">
-          <img src="./images/github.svg" alt="GitHub" width="30" />
-          GitHub
+        <a id="wip" href="https://portfolio.awahrani.com">
+          <i class="fas fa-globe"></i>
+          Portfolio
         </a>
       </li>
       <li>
-        <a href="https://discordapp.com/users/579141550705999892">
-          <img src="./images/discord.svg" alt="Discord" width="30" class="filterit" />
-          Discord
+        <a href="https://blog.awahrani.com">
+          <i class="fa-solid fa-blog"></i>
+          Blog
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Nissou31">
+          <i class="fab fa-github"></i> GitHub
         </a>
       </li>
       <li>
@@ -39,38 +59,8 @@
           Root-me
         </a>
       </li>
-      <li>
-        <a id="wip" href="https://awahrani.com">
-          <img src="./images/website.svg" alt="My portfolio" width="30" />
-          Portfolio
-        </a>
-      </li>
     </ul>
-    <div class="flex-container">
-      <div class="flex-child">
-        <a href="https://www.linkedin.com/in/anesamri/">
-          <img src="./images/linkedin.svg" alt="Linkedin" width="20" class="linkedin" />
-        </a>
-      </div>
-      <div class="flex-child">
-        <a href="https://www.instagram.com/awahrani631_/">
-          <img src="./images/instagram.svg" alt="Instagram" width="20" class="instagram" />
-        </a>
-      </div>
-      <div class="flex-child">
-        <a href="https://www.youtube.com/channel/UCHl5_1CP9UKgO3M8_irrqVg">
-          <img src="./images/youtube.svg" alt="YouTube" width="20" class="youtube" />
-        </a>
-      </div>
-      <div class="flex-child">
-        <a href="https://medium.com/aness306">
-          <img src="./images/medium.svg" alt="Medium" width="25" class="medium" />
-        </a>
-      </div>
-    </div>
   </main>
 </body>
-
-
 
 </html>
