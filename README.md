@@ -1,33 +1,31 @@
 # Link-in-bio
 
-A minimalist link-in-bio solution forked from [Takuya Matsuyama (craftzdog)](links.craftz.dog/) built with HTML, CSS, and JavaScript. Features a clean design with theme-aware favicons and smooth animations.
+A minimalist link-in-bio page built with plain HTML, CSS, and JavaScript. No framework, no build step.
 
 ## Features
 
-- 🎨 Clean, minimalist design
-- 🌓 Theme-aware favicons (adapts to light/dark mode)
-- ✨ Smooth loading animations
+- 🎨 Neo-brutalist card design
+- 🌓 Light/dark theme toggle (persisted in `localStorage`)
+- ✨ Smooth loading animation
 - 📱 Fully responsive
-- 🎯 Easy to customize
-- 🚀 Fast loading
-- 💻 No framework dependencies
+- 💻 No framework or build dependencies
 
 ## Setup
 
 1. Clone the repository
-    ```bash
-    git clone https://github.com/Nissou31/link-in-bio.git
-    ```
+   ```bash
+   git clone https://github.com/Nissou31/link-in-bio.git
+   ```
 2. Customize the content in `index.html`
 3. Update styles in `index.css` if needed
-4. Deploy to your preferred hosting platform
+4. Deploy to your preferred hosting platform (this repo includes a `vercel.json`)
 
 ## Customization
 
 - Update links in `index.html`
-- Modify colors and styling in `index.css`
-- Replace favicons in the `images` folder
-- Adjust animations in `script.js`
+- Modify theme colors via the CSS custom properties at the top of `index.css`
+- Replace images in the `images/` folder
+- Adjust behavior (theme toggle, load animation) in `script.js`
 
 ## License
 
